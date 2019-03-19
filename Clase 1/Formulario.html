@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link  rel="stylesheet" href="css/styleFormulario.css">
+    <title>Formulario | Subscripcion</title>
+  </head>
+  <body>
+    <h3>Formularios</h3>
+        <form class="" action="index.html" method="post"><!--"action" donde la informacion va a viajar-->
+          <p><!--Siempre un label y su imput respectivo-->
+            <label for="nombre">Nombre y Apellido:</label><!--lo de abajo -->
+            <input id="nombre" type="text" name="nombre"><!--el id del imput debe ser iguañ al for del label--->
+          </p>
+          <p>
+            <label for="email">Correo:</label>
+            <input id="email" type="email"  name="email" placeholder="user@email.com" required>
+          </p><!--placeholder: texto en gris de ayuda -->
+          <p>
+            <label for="pass">Contraseña:</label>
+            <input id="pass"type="password" name="pass" ><!--el id y el name deben ser iguales,por convencion-->
+          </p>
+          <p>
+            <label for="cine">¿Fue al cine este año?</label>
+            <input type="radio" name="cine" value="s"> SI<!--Para que solo pueda usar uno deben ser iguales los name-->
+            <input type="radio" name="cine" value="n"> NO<!-- El value es el valor que se guarda-->
+          </p>
+          <p>
+            <label for="genero">Selecciones sus Generos preferidos</label>
+            <br>
+            <input type="checkbox" name="genero" value="d"> Drama<!--El name == al for del label-->
+            <input type="checkbox" name="genero" value="g" checked> Gore<!--"checked"Que venga tildado predeterminado-->
+            <input type="checkbox" name="genero" value="c"> Comedia
+          </p>
+
+            <p>
+              <label for="pais">Pais:</label>
+              <select class="" name="pais" id="pais">
+                <optgroup label="Sur America">
+                  <option value="Ar">Argentina</option>
+                  <option value="Br">Brasil</option>
+                  <option value="Bo">Bolivia</option>
+                </optgroup>
+                <optgroup label="Asia">
+                  <option value="Ja">Japon</option>
+                  <option value="Ru">Rusia</option>
+                </optgroup>
+
+            </select>
+          </p>
+          <p>
+            <label for="com">Comentarios  </label><!--en el video le sale separado-->
+            <br>
+            <textarea id ="com" name="com" rows="8" cols="80">
+
+            </textarea>
+          </p>
+          <button type="submit" name="button">Enviar</button>
+          <button type="reset" name="button">Limpiar</button>
+        </form>
+  <a href="index.html">Volver a la pagina principal</a>
+  </body>
+</html>
