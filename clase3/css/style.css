@@ -1,0 +1,49 @@
+/*RESETS*/
+*{/* asterisco: selector universal */
+  box-sizing: border-box;
+}
+a{/*quito los subrayados a los links*/
+  text-decoration: none;
+  color: #444;
+}
+ul,ol{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+/*Fin de los reset*/
+.contenedor{
+background: rgba(255, 0, 0, 0.2);
+width: 1024px;
+border: 1px solid #ccc;
+padding: 10px;
+margin: 0 auto;
+}
+
+.h2Carta{
+  border-bottom: 5px solid black;
+}
+
+.Carta{
+  overflow: hidden;
+}
+
+.menu{
+  float: left;
+  padding: 20px 20px 20px 20px;
+  background-color: red;
+  width: 300px;
+
+}
+.columDerecha{
+  float: left;
+
+  background-color: blue;
+  width: 500px;
+  height: 400px;
+
+}
+.piePagina{
+  background-color: green;
+}
