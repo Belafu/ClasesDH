@@ -1,3 +1,7 @@
+*{/* asterisco: selector universal */
+  box-sizing: border-box;
+}
+
 /*style de index*/
 .index {
   background-image: url(../img/emilia-home.jpg);
@@ -47,8 +51,23 @@ a{
 .h1about{
   font-size: 60px;
 }
-.regla{
-    line-height: 20px;
-    color: red;
-    text-decoration-color: red;
+.h2about{
+  padding-left: 50px;
+  color: green;
+}
+h4 {
+  padding-left: 50px;
+  color: green;
+}
+/*MUSIC*/
+.music{
+  background-image: url(../img/emilia-music-top.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'Open Sans', sans-serif;
+}
+.barraMusic{
+  text-align: right;
+  background-color: rgba(255, 255,255, 0.5);
+  line-height: 50px;
 }
