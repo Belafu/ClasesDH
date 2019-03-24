@@ -1,7 +1,12 @@
 *{/* asterisco: selector universal */
   box-sizing: border-box;
 }
-
+li{
+  list-style-type: none;
+}
+ul,ol{
+  padding: 0;
+}
 /*style de index*/
 .index {
   background-image: url(../img/emilia-home.jpg);
@@ -19,9 +24,9 @@ h1 {
 font-family: 'Work Sans', sans-serif;
 font-size: 20px;
 }
-ul {
+.index ul{
   list-style-type: none;
-  line-height: 20px;
+  padding-left: 40px;
 }
 .h1Index{
   color: black;
@@ -59,24 +64,44 @@ h4 {
   padding-left: 50px;
   color: green;
 }
-/*MUSIC*/
+/*--------------MUSIC--------------------------------*/
 .music{
+  margin: 0;
+  font-family: sans-serif, Verdana, Tahoma;
+}
+.music header{
   background-image: url(../img/emilia-music-top.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
 }
-.barraMusic{
-  text-align: right;
-  background-color: rgba(255, 255,255, 0.5);
-  line-height: 50px;
+.tags a{
+  padding: 40px;
 }
-/*style del contac*/
+/*----------style del contac--------------------------*/
 .contac{
   font-family: 'Open Sans', sans-serif;
 }
 
-.h4contac{
+.contac h4{
   padding-left: 0;
+}
+header{
+  background-size: 100%;
+  height: 164px;
+  overflow: hidden;
+}
+.menu{
+  text-align: right;
+  background: rgba(255, 255,255, 0.5);
+  padding: 20px 5px 20px 0;
+  margin-top: 38px;
+  float: none;
+}
+.iconos{
+  text-align: right;
+  margin: 10px 5px 0 0;
+}
+.celus{
+  padding-bottom: 10px;
+}
+.contac h1{
+  font-size: 80px;
 }

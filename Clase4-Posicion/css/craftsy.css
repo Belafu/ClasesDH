@@ -1,0 +1,106 @@
+/* Craftsy CSS*/
+
+/* Reset General*/
+*{
+  box-sizing: border-box;
+}
+ul, ol{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+body{
+  background-image: url(../img/bg-2.png);
+	font-family: sans-serif, Verdana, Tahoma;
+}
+.container{
+  width: 960px;
+  margin:0 auto;
+}
+
+/* Cabecera */
+header{
+  /* position: relative; */
+  position: fixed;
+  top:0;
+  z-index: 999;
+  padding: 16px 0;
+  margin-bottom: 25px;
+  width: 960px;
+}
+.logo{
+  position: absolute;
+  top:0;
+  left: -40px;
+}
+.menu ul{
+  overflow: hidden;
+  background-color: rgb(239, 76, 39);
+  padding-left: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.menu li{
+  float: left;
+  margin-right: 20px;
+  padding: 10px 0;
+}
+.menu a{
+  color:#fff;
+}
+
+/* Cuerpo Central*/
+
+main{
+  background: #fff;
+  margin-top:140px;
+}
+.product-container{
+  overflow: hidden;
+}
+.product{
+  width: 300px;
+  float: left;
+  margin: 10px;
+  position: relative;
+}
+.promo{
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.product h2{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left: 50%;
+  color:#fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+}
+.more{
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 10px;
+  background: red;
+  color:#fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+/**/
