@@ -7,6 +7,10 @@ li{
 ul,ol{
   padding: 0;
 }
+a {
+  text-decoration: none;
+   color: #000;
+ }
 /*style de index*/
 .index {
   background-image: url(../img/emilia-home.jpg);
@@ -79,9 +83,12 @@ h4 {
 .contac{
   font-family: 'Open Sans', sans-serif;
 }
-
+.contac h1{
+  font-size: 80px;
+}
 .contac h4{
   padding-left: 0;
+  font-size: 20px;
 }
 header{
   background-size: 100%;
@@ -99,9 +106,6 @@ header{
   text-align: right;
   margin: 10px 5px 0 0;
 }
-.celus{
-  padding-bottom: 10px;
-}
-.contac h1{
-  font-size: 80px;
+.contac h2{
+font-weight: 800;
 }
