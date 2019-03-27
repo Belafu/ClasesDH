@@ -21,7 +21,7 @@ a {
 
 }
 
-h1 {
+h1, h2 {
   font-family: 'Raleway', sans-serif;
 }
 .emiliahome{
@@ -105,7 +105,4 @@ header{
 .iconos{
   text-align: right;
   margin: 10px 5px 0 0;
-}
-.contac h2{
-font-weight: 800;
 }
