@@ -16,16 +16,20 @@ a{
 body{
     background-image: url(../images/bg-body.png);
 }
-header{
-    text-align: center;
-}/*el header solo se centra*/
 .container{
   margin: 0 auto;
-
+}
+.main-header, .main-footer{
+  text-align: center;
 }
 .logo{
 border-radius: 50%;
-
+border: 1px solid #ccc;
+}
+.fa-bars{
+  color: #fff;
+  background-color: #444;
+  padding: 4px 6px;
 }
 .toggle-nav{
  display: block;
@@ -38,7 +42,7 @@ border-radius: 50%;
   background-color: black;
   color: white;
   margin-bottom: 0.25%;
-  padding: 1%;
+  padding: 7% 0;
 
 }
 

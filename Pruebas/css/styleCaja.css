@@ -1,0 +1,14 @@
+.container{
+  width: 800px;
+  height: 70px;
+  background-color: rgb(32, 226, 208);
+}
+
+span{
+  /*display: block;*/
+
+}
+
+h1{
+    background-color: rgb(234, 24, 237);
+}
