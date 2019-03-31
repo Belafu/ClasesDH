@@ -77,7 +77,7 @@ h4 {
   background-image: url(../img/emilia-music-top.jpg);
 }
 .tags a{
-  padding: 40px;
+  margin: 0 40px;
 }
 /*----------style del contac--------------------------*/
 .contac{

@@ -2,6 +2,7 @@
   width: 800px;
   height: 70px;
   background-color: rgb(32, 226, 208);
+  line-height: 32px;
 }
 
 span{
@@ -11,4 +12,10 @@ span{
 
 h1{
     background-color: rgb(234, 24, 237);
+}
+p{
+  font-size: 53px;
+  font-weight:bolder;
+  text-decoration: line-through;
+
 }
