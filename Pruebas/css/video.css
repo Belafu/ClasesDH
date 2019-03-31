@@ -1,0 +1,30 @@
+.card-img-top{
+  width: 480px;
+}
+
+.video-presentacion{
+  width: 50%;
+  float: left;
+}
+
+.barra-central{
+  overflow: hidden;
+}
+p{
+  float: right;
+}
+
+/*sobre laetiqueta video{todo este dentrp de video}
+controls: siempre sino no se reproduce
+width y height los de siempre
+autoplay: que apenas carge la pagina el video se reproduce
+preload: si quiero que se carge el video como la cache ,util si tienes muchos no vas a pedir que se cargen todos los videos se te lentea
+{dentro de video
+los source siempre es buena practica responsive
+A y no olvidar ser responsive con el width
+}
+*/
+/*sobre el audio
+sin controls: el sonido no se reproduce pero si le aumento el autoplay se oira como fondo
+
+*/
