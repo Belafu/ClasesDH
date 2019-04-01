@@ -1,0 +1,130 @@
+/*!
+ * Freelancer Notes
+ *
+ * Nav bar background color, title color and footer background color: #2c3e50;
+ * Free Lancer green background: #18bc9c;
+ *
+ * Font-family from google fonts. Go pick them :D
+ *
+ * Icons: star, bars, social: FontAwesome.
+ *
+ */
+ /* Resets*/
+
+ *{
+ box-sizing: border-box;
+ }
+ ul,ol{
+   padding: 0;
+ }
+ li{
+   list-style-type: none;
+ }
+ a{
+   text-decoration: none;
+   color: #000;
+ }
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+/*container-fluid para que tome todo el fondo*/
+.container-fluid{/*sale un espacio raro en el body*/
+  padding: 0;
+}
+/*header*/
+header{
+  background-color: rgba(47, 57, 75, 0.95);
+  padding: 10px 20px;
+}
+.nav-tabs{
+  border-bottom: 0;/*quita el subrayado*/
+}
+.nav-item:nth-last-child(-n+3){
+  display: none;
+}
+/*main*/
+main {
+  text-align: center;
+}
+
+
+.dropdown{
+background-color: rgb(70, 176, 144);
+}
+.titulo-cabecera, .nav-link{
+ color: white;
+ font-weight: bold;
+}
+.presentacion, .about{
+  background-color: rgb(70, 176, 144);
+  color: white;
+  padding: 20px 30px;
+}
+.titulos-grandes{
+  font-size: 345%;
+  font-weight: bolder;
+  line-height: 80px;
+  margin-bottom: 90px;
+}
+.fa-star{
+    font-size: 90px;
+}
+/*portfolio*/
+.portfolio{
+  background-color: white;
+  padding: 52px;
+}
+.portfolio h2 {
+  color: rgba(47, 57, 75, 0.95);
+  font-weight: bold;
+}
+.row{
+  overflow: hidden;
+}
+.photo{
+  width: 100%;
+}
+.col-12{
+  padding: 17px;
+}
+
+
+/*media query*/
+@media (min-width:720px) {
+  .dropdown{
+    float: right;
+  }
+  .titulo-cabecera{
+    float: left;
+  }
+}
+
+@media (min-width:992px) {
+  .container{
+    max-width: 960px;
+  }
+  header ul{
+    overflow: hidden;
+  }
+  .nav-item:nth-child(1){
+    display: block;
+    float: left;
+  }
+  .nav-item:nth-child(2){
+    display: none;
+  }
+  .nav-item:nth-last-child(-n+3){
+    display: block;
+    float: right;
+  }
+}
