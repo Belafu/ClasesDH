@@ -1,0 +1,86 @@
+/*## Colores
+	#c7c7c7 | gris.
+	#508fb8 | celeste.
+*/
+
+/*reset generales*/
+*{
+box-sizing: border-box;
+}
+ul,ol{
+  padding: 0;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background-image: url(../images/bg-body.png);
+  text-align: center;
+}
+.container{
+  margin: 30px;
+/*  display: flex;
+  flex-wrap: wrap;*/
+  border: 1px solid #c7c7c7 ;
+  padding: 30px;
+
+}
+.card{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;  /*nunca olvidar el respeto a tus padres*/
+  flex-direction: column;
+}
+.foto{
+  white: 100%;
+  border-radius: 50%;/*no se porque no funciona con im*/
+}
+.foto, .social-media, .card-data{
+display: flex;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li{
+  display: flex;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #508fb8;
+  text-align: center;
+}
+.ion-social-facebook, .ion-social-twitter, .ion-social-linkedin{
+  color: white;
+  width: 100%;
+}
+
+.card-data{
+  text-align: left;
+}
+.card-data a{
+  background-color: #c7c7c7 ;
+  color: white;
+  padding: 8px;
+}
+
+@media (min-width:720px) {
+ .card{
+     width: 50%;
+     flex-wrap: nowrap;
+ }
+}
+@media (min-width:960px) {
+  .card{
+      width: 50%;
+  }
+}
