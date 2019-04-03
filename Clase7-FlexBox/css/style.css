@@ -25,26 +25,24 @@ body{
 }
 .container{
   margin: 30px;
-/*  display: flex;
-  flex-wrap: wrap;*/
   border: 1px solid #c7c7c7 ;
   padding: 30px;
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .card{
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
-  display: flex;
-  flex-wrap: wrap;  /*nunca olvidar el respeto a tus padres*/
-  flex-direction: column;
+  padding: 20px 10px;
 }
 .foto{
-  white: 100%;
   border-radius: 50%;/*no se porque no funciona con im*/
+  width: 300px;
 }
-.foto, .social-media, .card-data{
+/*.foto, .social-media, .card-data{
 display: flex;
-}
+}*/
 ul{
   display: flex;
   flex-wrap: wrap;
@@ -52,18 +50,12 @@ ul{
   justify-content: space-between;
 }
 li{
-  display: flex;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   background-color: #508fb8;
   text-align: center;
 }
-.ion-social-facebook, .ion-social-twitter, .ion-social-linkedin{
-  color: white;
-  width: 100%;
-}
-
 .card-data{
   text-align: left;
 }
@@ -81,6 +73,6 @@ li{
 }
 @media (min-width:960px) {
   .card{
-      width: 50%;
+      width: 300px;
   }
 }
