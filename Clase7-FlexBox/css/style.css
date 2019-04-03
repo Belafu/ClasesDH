@@ -30,19 +30,26 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
 }
 .card{
   background-color: rgb(255, 255, 255);
   border-radius: 5%;
   padding: 20px 10px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .foto{
   border-radius: 50%;/*no se porque no funciona con im*/
-  width: 300px;
+  width: 100%;
+  display: flex;
 }
-/*.foto, .social-media, .card-data{
+.social-media, h2, p{
 display: flex;
-}*/
+}
 ul{
   display: flex;
   flex-wrap: wrap;
@@ -55,6 +62,12 @@ li{
   border-radius: 50%;
   background-color: #508fb8;
   text-align: center;
+  display: flex;
+  align-items: center;
+}
+span{
+  display: flex;
+  /*Hacelo directo en el a ----*/
 }
 .card-data{
   text-align: left;
@@ -67,12 +80,11 @@ li{
 
 @media (min-width:720px) {
  .card{
-     width: 50%;
+     width: 40%;
      flex-wrap: nowrap;
  }
 }
 @media (min-width:960px) {
   .card{
-      width: 300px;
   }
 }
