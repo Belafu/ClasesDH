@@ -35,56 +35,83 @@ body{
 }
 .card{
   background-color: rgb(255, 255, 255);
-  border-radius: 5%;
-  padding: 20px 10px;
+  border-radius: 3%;
+  padding: 20px 20px;
   width: 100%;
-  text-align: center;
+  margin-bottom: 25px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap
+}
+.card-image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .foto{
   border-radius: 50%;/*no se porque no funciona con im*/
-  width: 100%;
+ width: 100%;
   display: flex;
 }
-.social-media, h2, p{
-display: flex;
-}
-ul{
+.social-media{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  width: 100%;
   justify-content: space-between;
 }
-li{
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
+li{/*lo hacemos una bola*/
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;/*lo hacemos una bola*/
   background-color: #508fb8;
-  text-align: center;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
-span{
+.social-media a{  /*Hacelo directo en el a ----*/
   display: flex;
-  /*Hacelo directo en el a ----*/
+  color: rgb(255, 255, 255);
 }
+/*Card-data y sus elementos*/
 .card-data{
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.card-data a, .card-data h2, .card-data p{
+display: flex;
 }
 .card-data a{
   background-color: #c7c7c7 ;
   color: white;
   padding: 8px;
+  width: 90px;
 }
-
 @media (min-width:720px) {
+ .container{
+    flex-direction: row;
+    justify-content:space-between;
+ }
  .card{
-     width: 40%;
-     flex-wrap: nowrap;
+     width: 46%;
  }
 }
 @media (min-width:960px) {
+  .card-image{
+    width: 30%;
+    justify-content: center;
+  }
+  .card-data{
+    width: 60%;
+  }
   .card{
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  li{/*lo hacemos una bola*/
+    height: 30px;
+    width: 30px;
   }
 }
